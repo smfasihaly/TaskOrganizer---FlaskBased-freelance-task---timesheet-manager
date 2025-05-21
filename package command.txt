@@ -1,4 +1,0 @@
-
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-
-pyinstaller --onefile --name taskorganizer --add-data "templates;templates" --add-data "static;static" --add-data "Data;Data" app.py
