@@ -15,8 +15,7 @@ dist/
 taskorganizer.exe
 taskorganizer.spec
 
-# Data folder (your Excel, etc)
-Data/*
+
 
 # Logs, OS junk
 *.log
@@ -25,3 +24,8 @@ Thumbs.db
 
 launch_flask.vbs
 package command.txt
+# ignore everything in Data/
+Data/*
+
+# but keep this “.gitkeep” placeholder
+!Data/.gitkeep
