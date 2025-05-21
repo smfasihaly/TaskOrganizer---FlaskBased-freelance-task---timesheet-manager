@@ -16,7 +16,7 @@ A self-contained Flask application for managing freelance clients, tasks, and ti
 ## Installation
 
 1. Clone or download this repo.  
-2. Ensure `Data/freelance_organizer.xlsx` exists (initial blank workbook is provided).  
+2. Ensure `Data/freelance_organizer.xlsx` exists.
 3. Run `dist/taskorganizer.exe` (no Python required).  
 4. Navigate to `http://127.0.0.1:5000` in your browser.
 
