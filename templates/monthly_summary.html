@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Monthly Earnings</h2>
+  <a href="{{ url_for('view_tasks') }}" class="btn btn-outline-secondary">
+    ← Back to Tasks
+  </a>
+</div>
+
+<!-- FILTERS (replace the old <select multiple> form) -->
+    <form method="get" class="row g-2 mb-4 align-items-end">
+
+        <!-- Month dropdown -->
+        <div class="col-md-4">
+          <label class="form-label">Month</label>
+          <div class="dropdown">
+            <button
+              class="btn btn-outline-secondary dropdown-toggle w-100 text-start"
+              type="button"
+              id="monthDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              {% if sel_months %}{{ sel_months|join(', ') }}{% else %}Select month{% endif %}
+            </button>
+            <ul class="dropdown-menu p-3" aria-labelledby="monthDropdown" style="max-height:200px;overflow:auto;">
+              {% for m in month_list %}
+                <li class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="month"
+                    value="{{ m }}"
+                    id="month-{{ loop.index }}"
+                    {% if m in sel_months %}checked{% endif %}
+                  >
+                  <label class="form-check-label" for="month-{{ loop.index }}">
+                    {{ m }}
+                  </label>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      
+        <!-- Client dropdown -->
+        <div class="col-md-4">
+          <label class="form-label">Client</label>
+          <div class="dropdown">
+            <button
+              class="btn btn-outline-secondary dropdown-toggle w-100 text-start"
+              type="button"
+              id="clientDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              {% if sel_clients %}{{ sel_clients|join(', ') }}{% else %}Select client{% endif %}
+            </button>
+            <ul class="dropdown-menu p-3" aria-labelledby="clientDropdown" style="max-height:200px;overflow:auto;">
+              {% for c in parent_names %}
+                <li class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="client"
+                    value="{{ c }}"
+                    id="client-{{ loop.index }}"
+                    {% if c in sel_clients %}checked{% endif %}
+                  >
+                  <label class="form-check-label" for="client-{{ loop.index }}">
+                    {{ c }}
+                  </label>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      
+       
+      
+        <!-- Apply button -->
+        <div class="col-md-2">
+          <button class="btn btn-primary w-100">Apply Filters</button>
+        </div>
+      </form>
+
+{% if summary %}
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover">
+      <thead class="table-light">
+        <tr>
+          <th>Month</th>
+          <th>Client</th>
+          <th class="text-end">Hours</th>
+          <th class="text-end">Earnings (€)</th>
+          <th class="text-end">Paid (€)</th>
+          <th class="text-end">Pending (€)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for grp in summary %}
+          <!-- Parent -->
+          <tr class="table-primary">
+            <td>{{ grp.Month }}</td>
+            <td><strong>{{ grp.ParentName }}</strong></td>
+            <td class="text-end">—</td>
+            <td class="text-end">—</td>
+            <td class="text-end">—</td>
+            <td class="text-end">—</td>
+          </tr>
+          <!-- Children -->
+          {% for c in grp.Children %}
+            <tr>
+              <td>{{ grp.Month }}</td>
+              <td>&nbsp;&nbsp;&nbsp;↳ {{ c.ClientName }}</td>
+              <td class="text-end">{{ "%.2f"|format(c.TotalHours) }}</td>
+              <td class="text-end">{{ "%.2f"|format(c.TotalEarnings) }}</td>
+              <td class="text-end">{{ "%.2f"|format(c.TotalPaid) }}</td>
+              <td class="text-end">{{ "%.2f"|format(c.TotalEarnings - c.TotalPaid) }}</td>
+            </tr>
+          {% endfor %}
+          <!-- Parent self -->
+          {% if grp.OwnEarnings %}
+            <tr>
+              <td>{{ grp.Month }}</td>
+              <td>&nbsp;&nbsp;&nbsp;↳ {{ grp.ParentName }} (Self)</td>
+              <td class="text-end">{{ "%.2f"|format(grp.OwnHours) }}</td>
+              <td class="text-end">{{ "%.2f"|format(grp.OwnEarnings) }}</td>
+              <td class="text-end">{{ "%.2f"|format(grp.OwnPaid) }}</td>
+              <td class="text-end">{{ "%.2f"|format(grp.OwnEarnings - grp.OwnPaid) }}</td>
+            </tr>
+          {% endif %}
+          <!-- Total -->
+          <tr class="table-secondary">
+            <td>{{ grp.Month }}</td>
+            <td><strong>Total for {{ grp.ParentName }}</strong></td>
+            <td class="text-end"><strong>{{ "%.2f"|format(grp.TotalHours) }}</strong></td>
+            <td class="text-end"><strong>{{ "%.2f"|format(grp.TotalEarnings) }}</strong></td>
+            <td class="text-end"><strong>{{ "%.2f"|format(grp.TotalPaid) }}</strong></td>
+            <td class="text-end"><strong>{{ "%.2f"|format(grp.TotalPending) }}</strong></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Grand Totals Card -->
+  <div class="card mt-4">
+    <div class="card-body">
+      <div class="row text-center">
+        <div class="col">
+          <h6 class="text-muted">Total Earnings</h6>
+          <p class="fs-4">€{{ "%.2f"|format(total_earnings) }}</p>
+        </div>
+        <div class="col">
+          <h6 class="text-muted">Paid Earnings</h6>
+          <p class="fs-4 text-success">€{{ "%.2f"|format(total_paid) }}</p>
+        </div>
+        <div class="col">
+          <h6 class="text-muted">Pending Earnings</h6>
+          <p class="fs-4 text-warning">€{{ "%.2f"|format(total_pending) }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% else %}
+  <p class="text-muted">No timesheet data to summarize.</p>
+{% endif %}
+{% endblock %}

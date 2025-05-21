@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mx-auto" style="max-width:500px;">
+  <div class="card-body">
+    <h3 class="card-title mb-4">Edit Client</h3>
+    <form method="post">
+
+      <!-- Parent selector -->
+      <div class="mb-3">
+        <label class="form-label">Parent Client (optional)</label>
+        <select id="parent_select" name="parent_id" class="form-select">
+          <option value="">— None —</option>
+          {% for c in clients if not c.ParentID and c.ClientID != client.ClientID %}
+            <option value="{{ c.ClientID }}"
+              {% if c.ClientID == client.ParentID %}selected{% endif %}>
+              {{ c.ClientName }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <!-- Payment-type & rate (only when parent chosen) -->
+      <div id="rate_section" class="mb-3" style="display:none;">
+        <div class="row g-2 align-items-end">
+          <div class="col-4">
+            <label class="form-label">Rate Type</label>
+            <select id="rate_type" name="rate_type" class="form-select">
+              <option value="Hourly"
+                {% if client.HourlyRate and client.HourlyRate>=client.MonthlyRate %}selected{% endif %}>
+                Hourly
+              </option>
+              <option value="Monthly"
+                {% if client.MonthlyRate and client.MonthlyRate>client.HourlyRate %}selected{% endif %}>
+                Monthly
+              </option>
+              <option value="Project"
+                {% if client.PaymentType=='Project' %}selected{% endif %}>
+                Project
+              </option>
+            </select>
+          </div>
+          <div class="col-8">
+            <label class="form-label">Rate Amount (€)</label>
+            <input
+              type="number"
+              step="0.01"
+              name="rate_amount"
+              class="form-control"
+              value="{% if client.PaymentType=='Hourly' %}{{ client.HourlyRate }}{% elif client.PaymentType=='Monthly' %}{{ client.MonthlyRate }}{% elif client.PaymentType=='Project' %}{{ client.ProjectRate }}{% endif %}"
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Client Name -->
+      <div class="mb-3">
+        <label class="form-label">Client Name</label>
+        <input
+          type="text"
+          name="name"
+          class="form-control"
+          value="{{ client.ClientName }}"
+          required
+        >
+      </div>
+
+      <button class="btn btn-primary w-100">Save Changes</button>
+      <a href="{{ url_for('view_clients') }}" class="btn btn-outline-secondary w-100 mt-2">
+        Cancel
+      </a>
+    </form>
+  </div>
+</div>
+
+<script>
+  const parentSelect = document.getElementById('parent_select');
+  const rateSection  = document.getElementById('rate_section');
+  const rateAmount   = rateSection.querySelector('input[name="rate_amount"]');
+
+  function toggleRateSection() {
+    if (parentSelect.value) {
+      rateSection.style.display = 'block';
+      rateAmount.required = true;
+    } else {
+      rateSection.style.display = 'none';
+      rateAmount.required = false;
+      rateAmount.value = '';
+    }
+  }
+
+  parentSelect.addEventListener('change', toggleRateSection);
+  document.addEventListener('DOMContentLoaded', toggleRateSection);
+</script>
+{% endblock %}

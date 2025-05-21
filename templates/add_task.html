@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mx-auto" style="max-width:600px;">
+  <div class="card-body">
+    <h3 class="card-title mb-4">Add New Task</h3>
+    <form method="post">
+
+      <!-- CLIENT SELECTOR -->
+      <div class="mb-3">
+        <label class="form-label">Client</label>
+        <select id="client_select" name="client_id" class="form-select" required>
+          {% for c in clients %}
+            <option value="{{ c.ClientID }}">{{ c.ClientName }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <!-- SHORT NAME FOR TIMESHEET -->
+      <div class="mb-3">
+        <label class="form-label">Short Name (for timesheet)</label>
+        <input
+          type="text"
+          name="short_name"
+          class="form-control"
+          placeholder="e.g. API Work"
+          required
+        >
+      </div>
+
+      <!-- TASK DESCRIPTION -->
+      <div class="mb-3">
+        <label class="form-label">Task Description</label>
+        <textarea
+          name="description"
+          rows="3"
+          class="form-control"
+          placeholder="Full description for your reference"
+          required
+        ></textarea>
+      </div>
+
+      <button class="btn btn-primary w-100 mt-3">Create Task</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

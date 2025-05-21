@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Your Tasks</h2>
+  <a href="{{ url_for('add_task') }}" class="btn btn-primary">
+    + New Task
+  </a>
+</div>
+
+<div class="kanban-board">
+  {% set cols = [
+    ('Pending',      'secondary'),
+    ('In Progress',  'warning'),
+    ('Completed',    'success')
+  ] %}
+
+  {% for status, color in cols %}
+    <div class="kanban-column">
+      <div class="kanban-column-header text-{{ color }}">
+        {{ status }}
+      </div>
+
+      {% for t in tasks if t.Status == status %}
+        <div
+          class="kanban-card"
+          style="
+            --status-color: var(--bs-{{ color }});
+            --status-color-hover: var(--bs-{{ color }});
+          "
+        >
+          <h6 class="card-title">{{ t.Client }}</h6>
+          <p class="card-text">{{ t.TaskDescription }}</p>
+          <small>Created {{ t.CreatedDate }}</small>
+
+          <div class="card-footer">
+            <a href="{{ url_for('log_hours', task_id=t.TaskID) }}"
+               class="btn btn-outline-primary">
+              Log
+            </a>
+            <a href="{{ url_for('update_status', task_id=t.TaskID) }}"
+               class="btn btn-outline-secondary">
+              Update
+            </a>
+          </div>
+        </div>
+      {% else %}
+        <p class="text-center text-muted small mt-4 mb-0">
+          No tasks here
+        </p>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,4785 @@
+('D:\\random codes\\taskorganizer\\build\\taskorganizer\\PYZ-00.pyz',
+ [('__future__',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_sitebuiltins.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('backports',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('blinker',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\blinker\\__init__.py',
+   'PYMODULE'),
+  ('blinker._utilities',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\blinker\\_utilities.py',
+   'PYMODULE'),
+  ('blinker.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\blinker\\base.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('click',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click._compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.core',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click.globals',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.termui',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click.testing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
+  ('click.types',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('colorama',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('dateutil',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\dis.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('et_xmlfile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('et_xmlfile.incremental_tree',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\et_xmlfile\\incremental_tree.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
+  ('fileinput',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\fileinput.py',
+   'PYMODULE'),
+  ('flask',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.app',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('flask.config',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.json',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE'),
+  ('flask.json.provider',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\json\\provider.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.sansio', '-', 'PYMODULE'),
+  ('flask.sansio.app',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\sansio\\app.py',
+   'PYMODULE'),
+  ('flask.sansio.blueprints',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\sansio\\blueprints.py',
+   'PYMODULE'),
+  ('flask.sansio.scaffold',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\sansio\\scaffold.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('flask.typing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\typing.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('itsdangerous',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\__init__.py',
+   'PYMODULE'),
+  ('itsdangerous._json',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\_json.py',
+   'PYMODULE'),
+  ('itsdangerous.encoding',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\encoding.py',
+   'PYMODULE'),
+  ('itsdangerous.exc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\exc.py',
+   'PYMODULE'),
+  ('itsdangerous.serializer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\serializer.py',
+   'PYMODULE'),
+  ('itsdangerous.signer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\signer.py',
+   'PYMODULE'),
+  ('itsdangerous.timed',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\timed.py',
+   'PYMODULE'),
+  ('itsdangerous.url_safe',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\itsdangerous\\url_safe.py',
+   'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('jinja2',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('numpy',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._array_api_info',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'PYMODULE'),
+  ('numpy._core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs_scalars',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy._core._asarray',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy._core._dtype',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy._core._dtype_ctypes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._core._exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy._core._internal',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'PYMODULE'),
+  ('numpy._core._machar',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_machar.py',
+   'PYMODULE'),
+  ('numpy._core._methods',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._core._string_helpers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy._core._type_aliases',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy._core._ufunc_config',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy._core.arrayprint',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy._core.defchararray',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._core.einsumfunc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy._core.fromnumeric',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy._core.function_base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'PYMODULE'),
+  ('numpy._core.getlimits',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy._core.memmap',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'PYMODULE'),
+  ('numpy._core.multiarray',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy._core.numeric',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'PYMODULE'),
+  ('numpy._core.numerictypes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy._core.overrides',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'PYMODULE'),
+  ('numpy._core.printoptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'PYMODULE'),
+  ('numpy._core.records',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'PYMODULE'),
+  ('numpy._core.shape_base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy._core.strings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'PYMODULE'),
+  ('numpy._core.tests', '-', 'PYMODULE'),
+  ('numpy._core.tests._natype',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\tests\\_natype.py',
+   'PYMODULE'),
+  ('numpy._core.umath',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._expired_attrs_2_0',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit_base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._ufunc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'PYMODULE'),
+  ('numpy._utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('numpy._utils._convertions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'PYMODULE'),
+  ('numpy._utils._inspect',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.char',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.dtypes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE'),
+  ('numpy.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._backend',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._distutils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._meson',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE'),
+  ('numpy.f2py._isocbind',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.symbolic',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft._helper',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._array_utils_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraypad_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraysetops_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arrayterator_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib._function_base_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._histograms_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._index_tricks_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._nanfunctions_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._npyio_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._polynomial_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._scimath_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._shape_base_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._stride_tricks_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._twodim_base_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._type_check_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._ufunclike_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._utils_impl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.array_utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.introspect',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib.recfunctions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg._linalg',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.matlib',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\matlib.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.rec',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'PYMODULE'),
+  ('numpy.strings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.testing.overrides',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('openpyxl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl._constants',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\_constants.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.cell._writer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\cell\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.cell.rich_text',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\cell\\rich_text.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pivot',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\pivot.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.container',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\container.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.connector',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\connector.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.geometry',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\geometry.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.picture',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.properties',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.relation',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.xdr',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\drawing\\xdr.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.custom',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.drawings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\reader\\drawings.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.reader.workbook',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\reader\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook._writer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._read_only',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._reader',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._write_only',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._writer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.formula',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\formula.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.print_settings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.scenario',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
+  ('packaging',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pandas',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas._version_meson',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\_version_meson.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.interchange',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\api\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.typing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\api\\typing\\__init__.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat._constants',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\_constants.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat.compressors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\compressors.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.executor',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\executor.py',
+   'PYMODULE'),
+  ('pandas.core._numba.extensions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\extensions.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.mean_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\mean_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.min_max_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\min_max_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.shared',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\shared.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.sum_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\sum_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.var_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\var_.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.datetimelike_accumulations',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\datetimelike_accumulations.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_accumulations',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\masked_accumulations.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_string_mixins',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_arrow_string_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow._arrow_utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.accessors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.array',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.extension_types',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\extension_types.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.astype',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\astype.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.indexing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.objects',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexers\\objects.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexers\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.interchange',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.buffer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\buffer.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.column',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\column.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe_protocol',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe_protocol.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.from_dataframe',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\from_dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\interchange\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.methods',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.methods.describe',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\describe.py',
+   'PYMODULE'),
+  ('pandas.core.methods.selectn',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\selectn.py',
+   'PYMODULE'),
+  ('pandas.core.methods.to_dict',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\methods\\to_dict.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.encoding',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\encoding.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.sample',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\sample.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io._util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._calamine',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_calamine.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.arrow_parser_wrapper',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\arrow_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.tseries.holiday',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\tseries\\holiday.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pickletools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pickletools.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\plistlib.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pytz',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\random.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('setuptools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.numpy',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\numpy.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C.base',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\base.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.errors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.msvc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\msvc.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_static.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.android',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.api',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.macos',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.unix',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.windows',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.typing_extensions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\unpack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\glob.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\signal.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\site.py',
+   'PYMODULE'),
+  ('six',
+   'd:\\random codes\\taskorganizer\\.venv\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.__main__',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\__main__.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\threading.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tomllib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\typing.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.mock',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\mock.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('werkzeug',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.accept',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\accept.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.auth',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.cache_control',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\cache_control.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.csp',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\csp.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.etag',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\etag.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.file_storage',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.headers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.mixins',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.range',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\range.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.structures',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\routing\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.routing.converters',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\routing\\converters.py',
+   'PYMODULE'),
+  ('werkzeug.routing.exceptions',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.routing.map',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\routing\\map.py',
+   'PYMODULE'),
+  ('werkzeug.routing.matcher',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\routing\\matcher.py',
+   'PYMODULE'),
+  ('werkzeug.routing.rules',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\routing\\rules.py',
+   'PYMODULE'),
+  ('werkzeug.sansio',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.http',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\http.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.multipart',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.request',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.response',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.user_agent',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'd:\\random '
+   'codes\\taskorganizer\\.venv\\Lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\zipimport.py',
+   'PYMODULE')])

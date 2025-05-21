@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mx-auto" style="max-width:600px;">
+  <div class="card-body">
+    <h3 class="card-title mb-4">Log Hours</h3>
+    <form method="post">
+      <!-- Task picker -->
+      <div class="mb-3">
+        <label class="form-label">Task</label>
+        <input
+          list="task_list"
+          name="task_input"
+          class="form-control"
+          placeholder="Start typing…"
+          value="{{ initial_task_display }}"
+          required
+        >
+        <datalist id="task_list">
+          {% for t in tasks %}
+            <option value="{{ t.Client }} – {{ t.TaskDescription }}"></option>
+          {% endfor %}
+        </datalist>
+      </div>
+
+      <!-- Date & Hours -->
+      <div class="mb-3 row g-2">
+        <div class="col">
+          <label class="form-label">Date</label>
+          <input
+            type="date"
+            name="date"
+            class="form-control"
+            value="{{ initial_date }}"
+          >
+        </div>
+        <div class="col">
+          <label class="form-label">Hours</label>
+          <input
+            type="number"
+            step="0.25"
+            name="hours"
+            class="form-control"
+            required
+          >
+        </div>
+      </div>
+
+      <!-- Description -->
+      <div class="mb-3">
+        <label class="form-label">Description (optional)</label>
+        <textarea
+          name="description"
+          rows="2"
+          class="form-control"
+        ></textarea>
+      </div>
+
+      <button class="btn btn-primary w-100">Save</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
