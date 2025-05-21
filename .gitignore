@@ -1,2 +1,8 @@
 # ignore the persisted data file
-/Data/freelance_organizer.xlsx
+/Data/
+/dist/
+/__pycache__
+/.vscode
+/.venv
+/taskorganizer.exe
+/taskorganizer.spec
