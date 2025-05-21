@@ -16,7 +16,7 @@ taskorganizer.exe
 taskorganizer.spec
 
 # Data folder (your Excel, etc)
-Data/
+Data/*
 
 # Logs, OS junk
 *.log
