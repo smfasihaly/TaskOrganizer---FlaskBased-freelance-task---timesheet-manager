@@ -1,8 +1,24 @@
-# ignore the persisted data file
-/Data/
-/dist/
-/__pycache__
-/.vscode
-/.venv
-/taskorganizer.exe
-/taskorganizer.spec
+# Python byte‐code caches
+__pycache__/
+
+# VSCode workspace settings
+.vscode/
+
+# Virtual environment
+.venv/
+
+# Build & distribution outputs
+build/
+dist/
+
+# Bundled executable + spec
+taskorganizer.exe
+taskorganizer.spec
+
+# Data folder (your Excel, etc)
+Data/
+
+# Logs, OS junk
+*.log
+.DS_Store
+Thumbs.db
