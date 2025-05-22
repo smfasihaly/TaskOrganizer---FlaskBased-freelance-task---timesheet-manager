@@ -1,54 +1,165 @@
 {% extends 'base.html' %}
+{% block title %}Your Tasks{% endblock %}
+
+{# Define the three Kanban columns #}
+{% set cols = [
+  ('Pending',     'secondary'),
+  ('In Progress', 'warning'),
+  ('Completed',   'success')
+] %}
+
 {% block content %}
-<div class="d-flex justify-content-between align-items-center mb-3">
-  <h2>Your Tasks</h2>
-  <a href="{{ url_for('add_task') }}" class="btn btn-primary">
-    + New Task
-  </a>
-</div>
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="h2">Your Tasks</h1>
+    <a href="{{ url_for('add_task') }}" class="btn btn-primary">
+      + New Task
+    </a>
+  </div>
 
-<div class="kanban-board">
-  {% set cols = [
-    ('Pending',      'secondary'),
-    ('In Progress',  'warning'),
-    ('Completed',    'success')
-  ] %}
-
-  {% for status, color in cols %}
-    <div class="kanban-column">
-      <div class="kanban-column-header text-{{ color }}">
-        {{ status }}
-      </div>
-
-      {% for t in tasks if t.Status == status %}
-        <div
-          class="kanban-card"
-          style="
-            --status-color: var(--bs-{{ color }});
-            --status-color-hover: var(--bs-{{ color }});
-          "
-        >
-          <h6 class="card-title">{{ t.Client }}</h6>
-          <p class="card-text">{{ t.TaskDescription }}</p>
-          <small>Created {{ t.CreatedDate }}</small>
-
-          <div class="card-footer">
-            <a href="{{ url_for('log_hours', task_id=t.TaskID) }}"
-               class="btn btn-outline-primary">
-              Log
-            </a>
-            <a href="{{ url_for('update_status', task_id=t.TaskID) }}"
-               class="btn btn-outline-secondary">
-              Update
-            </a>
-          </div>
+  <div class="kanban-board">
+    {% for status, color in cols %}
+      <div class="kanban-column" id="col-{{ status|replace(' ', '-') }}">
+        <div class="kanban-column-header bg-{{ color }}">
+          {{ status }}
         </div>
-      {% else %}
-        <p class="text-center text-muted small mt-4 mb-0">
-          No tasks here
-        </p>
-      {% endfor %}
-    </div>
-  {% endfor %}
-</div>
+
+        {% for t in tasks if t.Status == status %}
+          <div
+            class="kanban-card"
+            draggable="true"
+            data-id="{{ t.TaskID }}"
+            style="
+              --status-color: var(--bs-{{ color }});
+              --status-color-hover: var(--bs-{{ color }});
+            "
+          >
+            <h6 class="card-title">{{ t.Client }}</h6>
+            <p class="card-text">{{ t.TaskDescription }}</p>
+            <small class="text-muted">Created {{ t.CreatedDate }}</small>
+            <div class="card-footer d-flex gap-2 mt-3">
+              <a
+                href="{{ url_for('log_hours', task_id=t.TaskID) }}"
+                class="btn btn-outline-primary flex-fill"
+              >
+                Log Hours
+              </a>
+              <a
+                href="{{ url_for('update_status', task_id=t.TaskID) }}"
+                class="btn btn-outline-secondary flex-fill"
+              >
+                Edit Task
+              </a>
+            </div>
+          </div>
+        {% else %}
+          <p class="text-center text-muted small mt-4 mb-0 no-tasks-msg">
+            No tasks here
+          </p>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    // Helper to show/hide the “No tasks here” message
+    function syncPlaceholder(columnEl) {
+      const hasCards = columnEl.querySelectorAll('.kanban-card').length > 0;
+      const msg      = columnEl.querySelector('.no-tasks-msg');
+      if (hasCards) {
+        if (msg) msg.remove();
+      } else {
+        if (!msg) {
+          const p = document.createElement('p');
+          p.className = 'text-center text-muted small mt-4 mb-0 no-tasks-msg';
+          p.textContent = 'No tasks here';
+          columnEl.appendChild(p);
+        }
+      }
+    }
+     function clearAllHighlights() {
+      document.querySelectorAll('.kanban-column.dragging-over')
+        .forEach(col => col.classList.remove('dragging-over'));
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const statuses = {{ cols|map(attribute=0)|list|tojson }};
+
+      statuses.forEach(status => {
+        const columnId = 'col-' + status.replace(' ', '-');
+        const column   = document.getElementById(columnId);
+        if (!column) return;
+
+        // Initial sync in case some columns start empty
+        syncPlaceholder(column);
+
+        Sortable.create(column, {
+          group: 'tasks',
+          draggable: '.kanban-card',
+          animation: 150,
+          ghostClass: 'ghost',
+          chosenClass: 'chosen',
+
+          onMove(evt) {
+           clearAllHighlights();
+            evt.to.classList.add('dragging-over');
+            return true;
+          },
+
+          onAdd(evt) {
+            const taskId    = evt.item.dataset.id;
+            const newStatus = status;
+            const colorMap  = {
+              'Pending':     '--bs-secondary',
+              'In Progress': '--bs-warning',
+              'Completed':   '--bs-success'
+            };
+
+            fetch(`/tasks/${taskId}/update`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ status: newStatus })
+            })
+            .then(response => {
+              if (!response.ok) throw new Error();
+              // Animate the border‐color
+              const cssVar = colorMap[newStatus];
+              evt.item.style.setProperty('--status-color', `var(${cssVar})`);
+              evt.item.style.setProperty('--status-color-hover', `var(${cssVar})`);
+
+              // Clean up classes
+              evt.item.classList.remove('ghost', 'chosen');
+              evt.to.classList.remove('dragging-over');
+
+              // Sync placeholders in both columns
+              syncPlaceholder(evt.to);
+              syncPlaceholder(evt.from);
+            })
+            .catch(err => {
+              console.error(err);
+              evt.from.classList.remove('dragging-over');
+              alert('Could not update status');
+              // Put card back visually
+              syncPlaceholder(evt.from);
+            });
+          },
+
+          onRemove(evt) {
+            
+              evt.to.classList.remove('dragging-over');
+            // Re-show placeholder if that column is now empty
+            syncPlaceholder(evt.from);
+          },
+
+          onEnd(evt) {
+            evt.to.classList.remove('dragging-over');
+            syncPlaceholder(evt.to);
+            syncPlaceholder(evt.from);
+          }
+        });
+      });
+    });
+  </script>
 {% endblock %}

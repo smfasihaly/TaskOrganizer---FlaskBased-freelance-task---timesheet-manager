@@ -1,175 +1,386 @@
 /* --------------------------------------------------------------------------
-   CSS Variables
+   Import & Root Variables
    -------------------------------------------------------------------------- */
-   :root {
-    --radius-sm: 0.5rem;
-    --radius-md: 0.75rem;
-    --shadow-light: 0 2px 6px rgba(0, 0, 0, 0.08);
-    --shadow-strong: 0 4px 12px rgba(0, 0, 0, 0.12);
-    --bg-page: #f4f6f8;
-    --bg-light: #f7f8fa;
-    --color-muted: #6c757d;
-  }
-  
-  /* --------------------------------------------------------------------------
-     Global Styles
-     -------------------------------------------------------------------------- */
-  body {
-    background-color: var(--bg-page);
-    scroll-behavior: smooth;
-  }
-  
-  .navbar-brand {
-    font-weight: 600;
-    letter-spacing: 0.5px;
-  }
-  
-  /* --------------------------------------------------------------------------
-     Card Styles
-     -------------------------------------------------------------------------- */
-  .card {
-    border: none;
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-light);
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-  
-  /* --------------------------------------------------------------------------
-     Button Styles
-     -------------------------------------------------------------------------- */
-  .btn {
-    border-radius: var(--radius-sm);
-    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
-  }
-  .btn:hover {
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-light);
-  }
-  
-  /* --------------------------------------------------------------------------
-     Badge Styles
-     -------------------------------------------------------------------------- */
-  .badge {
-    font-size: 0.85em;
-    padding: 0.5em 0.75em;
-  }
-  
-  /* --------------------------------------------------------------------------
-     Table Styles
-     -------------------------------------------------------------------------- */
-  .table-responsive {
-    background: #fff;
-    border-radius: var(--radius-md);
-    padding: 1rem;
-  }
-  .table th {
-    border-bottom: 2px solid #e9ecef;
-  }
-  .table td,
-  .table th {
-    vertical-align: middle;
-  }
-  
-  /* --------------------------------------------------------------------------
-     Text Utilities
-     -------------------------------------------------------------------------- */
-  .text-muted {
-    color: var(--color-muted) !important;
-  }
-  
-  /* --------------------------------------------------------------------------
-     Kanban Board Styles
-     -------------------------------------------------------------------------- */
-  /* Force exactly three columns */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Colors & accents */
+  --accent: #5c7cfa;
+  --accent-dark: #4c6ef5;
+  --bg-gradient-start: #f7f9fc;
+  --bg-gradient-end: #e3edf7;
+  --text-color: #34495e;
+  --heading-color: #2c3e50;
+  --muted-color: #7f8c8d;
+
+  /* Radii & shadows */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --shadow-light: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-strong: 0 6px 18px rgba(0, 0, 0, 0.08);
+
+  /* Timing */
+  --transition-fast: 0.15s;
+  --transition-medium: 0.5s;
+  --transition-slow: 0.8s;
+}
+
+/* --------------------------------------------------------------------------
+   Global & Typography
+   -------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   Navbar
+   -------------------------------------------------------------------------- */
+.navbar {
+  background: #fff !important;
+  box-shadow: var(--shadow-light) !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--heading-color) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+.btn {
+  border: none;
+  border-radius: var(--radius-md) !important;
+  font-weight: 500;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-medium);
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-strong);
+}
+.btn-outline-primary {
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+.btn-outline-primary:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   Forms
+   -------------------------------------------------------------------------- */
+.form-control, .form-select {
+  border-radius: var(--radius-md);
+  border: 1px solid #ced4da;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+.form-control:focus, .form-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.2rem rgba(92,124,250,0.25);
+}
+
+/* --------------------------------------------------------------------------
+   Alerts & Badges
+   -------------------------------------------------------------------------- */
+.alert {
+  border-radius: var(--radius-md);
+}
+.badge {
+  font-size: 0.85em;
+  padding: 0.5em 0.75em;
+  border-radius: var(--radius-sm);
+}
+
+/* --------------------------------------------------------------------------
+   Cards
+   -------------------------------------------------------------------------- */
+.card {
+  background: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-light);
+  margin-bottom: 1.5rem;
+}
+.card-header {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 500;
+  border-bottom: none;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------
+   Tables
+   -------------------------------------------------------------------------- */
+.table-responsive {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  box-shadow: var(--shadow-light);
+}
+.table th {
+  border-bottom: 2px solid #ecf0f1;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* --------------------------------------------------------------------------
+   Utility Text
+   -------------------------------------------------------------------------- */
+.text-muted {
+  color: var(--muted-color) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Kanban Board
+   -------------------------------------------------------------------------- */
+.kanban-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
   .kanban-board {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-bottom: 2rem;
+    grid-template-columns: 1fr;
   }
-  
-  /* Collapse to 1 column on narrow screens */
-  @media (max-width: 768px) {
-    .kanban-board {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  /* Each column panel */
-  .kanban-column {
-    background: var(--bg-light);
-    border-radius: var(--radius-md);
-    display: flex;
-    flex-direction: column;
-    max-height: 80vh;
-    overflow-y: auto;
-    padding: 1rem;
-    scrollbar-width: thin;           /* Firefox */
-    scrollbar-color: rgba(0,0,0,0.2) transparent;
-  }
-  
-  /* Column header */
-  .kanban-column-header {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    color: #333;
-  }
-  
-  /* Kanban card style */
-  .kanban-card {
-    position: relative;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-left: 4px solid var(--status-color, #888);
-    border-radius: var(--radius-md);
-    padding: 1rem;
-    margin-bottom: 1rem;
-    transition: transform 0.15s ease, border-color 0.15s ease;
-  }
-  .kanban-card:hover {
-    transform: translateY(-3px);
-    border-color: var(--status-color-hover, #666);
-  }
-  
-  /* Card title & text */
-  .kanban-card .card-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-  .kanban-card .card-text {
-    font-size: 0.9rem;
-    color: #444;
-    margin-bottom: 0.75rem;
-  }
-  .kanban-card small {
-    font-size: 0.75rem;
-    color: #888;
-  }
-  
-  /* Card footer buttons */
-  .kanban-card .card-footer {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: auto;
-  }
-  .kanban-card .card-footer .btn {
-    flex: 1;
-    padding: 0.4rem 0.6rem;
-    font-size: 0.85rem;
-  }
-  
-  /* Scrollbar styling for WebKit */
-  .kanban-column::-webkit-scrollbar {
-    width: 6px;
-  }
-  .kanban-column::-webkit-scrollbar-thumb {
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 3px;
-  }
-  
+}
+.kanban-column {
+  background: #f7f8fa;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.kanban-column-header {
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  margin: -1rem -1rem 1rem -1rem;
+}
+.kanban-card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid var(--status-color, #888);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  /* animate border color changes */
+  transition: transform var(--transition-fast),
+              border-left-color var(--transition-medium),
+              box-shadow var(--transition-medium);
+}
+.kanban-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-strong);
+}
+.kanban-card h6 {
+  margin-bottom: 0.5rem;
+}
+.kanban-card p {
+  margin-bottom: 0.75rem;
+}
+.kanban-card small {
+  font-size: 0.75rem;
+  color: var(--muted-color);
+}
+.kanban-card .card-footer {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+.kanban-card .card-footer .btn {
+  flex: 1;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+/* --------------------------------------------------------------------------
+   Drag & Drop Helpers
+   -------------------------------------------------------------------------- */
+.ghost {
+  opacity: 0.5 !important;
+}
+.chosen {
+  opacity: 0.9 !important;
+  box-shadow: 0 0 0 3px rgba(92,124,250,0.5);
+}
+.kanban-column.dragging-over {
+  background-color: rgba(92,124,250,0.1);
+}
+
+/* --------------------------------------------------------------------------
+   Scrollbar (Webkit)
+   -------------------------------------------------------------------------- */
+.kanban-column::-webkit-scrollbar {
+  width: 6px;
+}
+.kanban-column::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   Compact Timesheet Table Overrides
+   -------------------------------------------------------------------------- */
+/* Shrink the parent card spacing */
+.card-timesheet {
+  margin-bottom: 1rem;         /* was 2rem */
+}
+
+/* Tighter child‐client heading */
+.card-timesheet h5 {
+  margin-top: 0.75rem;         /* was 1.5rem */
+  margin-bottom: 0.25rem;      /* was 0.5rem */
+  font-size: 1rem;             /* a bit smaller */
+}
+
+/* Force the .table-sm variant and compact font */
+.timesheet-table .table {
+  margin-bottom: 0;
+  font-size: 0.875rem;
+}
+.timesheet-table .table-sm th,
+.timesheet-table .table-sm td {
+  padding: 0.25rem 0.5rem;     /* tighter vertical & horizontal */
+}
+
+/* Slim down the header row */
+.timesheet-table .table thead th {
+  padding: 0.4rem 0.6rem;      /* smaller than default */
+}
+
+/* Reduce row hover padding bump */
+.timesheet-table .table tbody tr:hover {
+  background: rgba(92,124,250,0.06); /* subtle highlight */
+}
+
+/* Shrink the “Mark Paid” button */
+.timesheet-table .btn-sm {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.75rem;
+}
+
+/* If you don’t need zebra stripes, remove them: */
+.timesheet-table .table tbody tr:nth-child(even) { background: transparent; } 
+
+/* --------------------------------------------------------------------------
+   Compact filter dropdowns
+   -------------------------------------------------------------------------- */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+/* --------------------------------------------------------------------------
+   Table wrapper re-use
+   -------------------------------------------------------------------------- */
+.timesheet-table {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+  margin-bottom: 1rem;
+}
+.timesheet-table .table {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.timesheet-table .table th,
+.timesheet-table .table td {
+  padding: 0.5rem 0.75rem;
+}
+
+/* --------------------------------------------------------------------------
+   Monthly Earnings specific
+   -------------------------------------------------------------------------- */
+/* Indented child rows */
+.timesheet-table .ps-4 {
+  padding-left: 1.5rem !important;
+}
+
+/* Grand totals card */
+.card-timesheet .card-body {
+  background: #fff;
+  border-radius: var(--radius-md);
+}
+.card-timesheet.mt-4 {
+  margin-top: 1.5rem;
+}
+.card-timesheet .row > .col h6 {
+  margin-bottom: 0.25rem;
+}
+.card-timesheet .row > .col p {
+  margin-top: 0;
+  font-weight: 600;
+}
+/* --------------------------------------------------------------------------
+   Exchange symbol in Monthly Earnings footer
+   -------------------------------------------------------------------------- */
+.exchange-symbol {
+  font-size: 2.5rem;
+  color: var(--accent);
+  line-height: 1;
+  margin-top: 0.35rem; /* aligns visually with first h6 */
+  user-select: none;
+}
+/* --------------------------------------------------------------------------
+   Symbol column for USD/€ icons
+   -------------------------------------------------------------------------- */
+.symbol-col {
+  width: 3rem;
+}
+
+.symbol-usd,
+.symbol-eur {
+  font-size: 2.5rem;
+  line-height: 2;
+  user-select: none;
+}
+
+.symbol-usd {
+  color: var(--accent);
+}
+
+.symbol-eur {
+  color: var(--accent-dark);
+}

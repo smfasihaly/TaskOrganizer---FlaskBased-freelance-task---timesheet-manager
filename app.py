@@ -11,6 +11,24 @@ app.secret_key = 'replace-with-a-secure-random-key'
 EXCEL_FILE = os.path.join('Data', 'freelance_organizer.xlsx')
 
 
+import requests
+
+def fetch_eur_rate( timeout: float = 5.0) -> float:
+    """
+    Calls the given API URL (which returns a JSON with a top‐level "data" dict),
+    and returns the value of data["EUR"] as a float.
+    Raises on network errors or if the EUR key is missing.
+    """
+    # resp = requests.get('https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_TXHyYNYOZIxnOQCyToD5WhRHTr6GGm8u105Xafbk', timeout=timeout)
+    resp = requests.get('https://www.floatrates.com/daily/usd.json', timeout=timeout)
+    resp.raise_for_status()
+    payload = resp.json()
+    eur = payload.get("eur").get("rate")
+    if eur is None:
+        raise KeyError("EUR rate not found in API response")
+    return float(eur)
+
+
 def load_data():
     """
     Load or initialize the three sheets:
@@ -212,7 +230,11 @@ def update_status(task_id):
         return redirect(url_for('view_tasks'))
 
     if request.method == 'POST':
-        new_status = request.form['status']
+        if request.is_json:
+            data = request.get_json(silent=True) or {}
+            new_status = data.get('status')
+        else:
+            new_status = request.form.get('status')
         tasks.loc[tasks.TaskID == task_id, 'Status'] = new_status
         save_data(clients, tasks, ts)
         flash('Status updated.', 'info')
@@ -459,11 +481,15 @@ def monthly_summary():
             own_hours    = float(p.TotalHours.sum())    if not p.empty else 0.0
             own_earnings = float(p.TotalEarnings.sum()) if not p.empty else 0.0
             own_paid     = float(p.TotalPaid.sum())     if not p.empty else 0.0
-
+            try:
+                eur_rate = fetch_eur_rate()
+            except Exception:
+                eur_rate = 1.0 
             total_hours    = own_hours + sum(c['TotalHours']    for c in children_list)
             total_earnings = own_earnings + sum(c['TotalEarnings'] for c in children_list)
             total_paid     = own_paid     + sum(c['TotalPaid']     for c in children_list)
             total_pending  = total_earnings - total_paid
+            
 
             summary.append({
                 'Month':         month,
@@ -492,7 +518,10 @@ def monthly_summary():
         sel_clients=sel_clients,
         total_earnings=total_earnings,
         total_paid=total_paid,
-        total_pending=total_pending
+        total_pending=total_pending,
+        total_earnings_eur = total_earnings * eur_rate ,   # USD→EUR
+        total_paid_eur     = total_paid     * eur_rate,
+        total_pending_eur  = total_pending  * eur_rate
     )
 
 from flask import jsonify
@@ -515,12 +544,13 @@ if __name__ == '__main__':
     url = "http://127.0.0.1:5000"
 
     # open the browser after a short delay (so Flask has time to start)
+   
+
+    # run the Flask development server (or your chosen host/port)
+    app.run(host="127.0.0.1", port=5000, debug=True)
     def _open_browser():
         webbrowser.open(url)
 
     # schedule browser open in 1 second
     Timer(1, _open_browser).start()
-
-    # run the Flask development server (or your chosen host/port)
-    app.run(host="127.0.0.1", port=5000, debug=False)
 

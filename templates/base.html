@@ -2,31 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Task Organizer{% endblock %}</title>
 
   <!-- Bootstrap CSS -->
-  <link 
+  <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-…"
     crossorigin="anonymous"
   >
 
-  <!-- Your custom styles -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <!-- Your custom styles (includes Google Font import) -->
+  <link
+    href="{{ url_for('static', filename='style.css') }}"
+    rel="stylesheet"
+  >
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-4">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="{{ url_for('view_tasks') }}">
-        🗂 Task Organizer
+        Task Organizer
       </a>
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
         data-bs-target="#navMenu"
       >
         <span class="navbar-toggler-icon"></span>
@@ -51,10 +54,10 @@
   </nav>
 
   <div class="container">
-    <!-- Flash messages -->
+    <!-- Flash Messages -->
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
-        <div class="mb-3">
+        <div class="mb-4">
           {% for category, msg in messages %}
             <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
               {{ msg }}
@@ -65,45 +68,19 @@
       {% endif %}
     {% endwith %}
 
-    <!-- Page content -->
+    <!-- Page Content -->
     {% block content %}{% endblock %}
   </div>
 
+  <!-- SortableJS for Kanban drag-and-drop -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
   <!-- Bootstrap Bundle JS -->
-  <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-…"
     crossorigin="anonymous"
   ></script>
 
-  <!-- (Optional) Service Worker registration for Push API -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("{{ url_for('static',filename='sw.js') }}")
-        .catch(err => console.error('SW registration failed:', err));
-    }
-  </script>
-
-  <!-- (Optional) Notifications polling script -->
-  <script>
-  if ('Notification' in window && Notification.permission === 'default') {
-    Notification.requestPermission();
-  }
-  async function checkPending() {
-    try {
-      const res = await fetch('/tasks/pending_count');
-      const { pending } = await res.json();
-      if (pending>0 && Notification.permission==='granted') {
-        new Notification(
-          `You have ${pending} pending task${pending>1?'s':''}!`
-        ).onclick = () => window.location='/tasks';
-      }
-    } catch(e){}
-  }
-  if ('Notification' in window) {
-    setTimeout(checkPending,5000);
-    setInterval(checkPending,60000);
-  }
-  </script>
+  {% block scripts %}{% endblock %}
 </body>
 </html>
