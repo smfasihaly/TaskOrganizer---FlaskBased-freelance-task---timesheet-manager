@@ -210,6 +210,33 @@ p {
               border-left-color var(--transition-medium),
               box-shadow var(--transition-medium);
 }
+
+
+.edit-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  opacity: 0.6;
+  border: none;
+  background: none;
+}
+.edit-icon:hover {
+  opacity: 1;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 2.5rem;   /* shift left of the edit button if both appear */
+  opacity: 0.6;
+  border: none;
+  background: transparent;
+}
+.delete-icon:hover {
+  opacity: 1;
+  color: #dc3545; /* bootstrap’s “danger” red */
+}
+
 .kanban-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-strong);
@@ -383,4 +410,23 @@ p {
 
 .symbol-eur {
   color: var(--accent-dark);
+}
+
+.delete-icon {
+  border: none;
+  background: transparent;
+  opacity: 0.6;
+  transition: color .2s, opacity .2s;
+}
+.delete-icon:hover {
+  opacity: 1;
+  color: #dc3545; /* bootstrap danger */
+}
+
+/* prevent buttons from wrapping and remove any stray margins */
+.text-nowrap .btn {
+  white-space: nowrap;
+}
+.d-flex.gap-1 .btn {
+  margin-bottom: 0;  /* override any mb-1 you had */
 }
