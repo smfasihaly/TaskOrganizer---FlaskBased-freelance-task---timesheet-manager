@@ -1,3 +1,6 @@
 Flask
 pandas
 openpyxl
+XlsxWriter
+pdfkit
+

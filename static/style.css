@@ -86,7 +86,7 @@ p {
 }
 .btn-outline-primary {
   color: var(--accent);
-  border: 2px solid var(--accent);
+  /* border: 2px solid var(--accent); */
 }
 .btn-outline-primary:hover {
   background: var(--accent);
@@ -177,6 +177,9 @@ p {
   .kanban-board {
     grid-template-columns: 1fr;
   }
+   .timesheet-table {
+    overflow-x: auto;
+  }
 }
 .kanban-column {
   background: #f7f8fa;
@@ -204,7 +207,7 @@ p {
   border-radius: var(--radius-md);
   padding: 1rem;
   margin-bottom: 1rem;
-
+  cursor: grab;
   /* animate border color changes */
   transition: transform var(--transition-fast),
               border-left-color var(--transition-medium),
@@ -260,6 +263,9 @@ p {
   flex: 1;
   padding: 0.4rem 0.6rem;
   font-size: 0.85rem;
+}
+.kanban-card:active {
+  cursor: grabbing;
 }
 
 /* --------------------------------------------------------------------------
@@ -430,3 +436,52 @@ p {
 .d-flex.gap-1 .btn {
   margin-bottom: 0;  /* override any mb-1 you had */
 }
+.table-responsive {
+  display: block;           /* ensure block formatting */
+  width: 100%;              /* full-width container */
+  overflow-x: auto;         /* horizontal scroll when needed */
+  -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
+}
+
+@media print {
+      body * { visibility: hidden; }
+      #printable-report, #printable-report * { visibility: visible; }
+      #printable-report { position: absolute; top: 0; left: 0; width: 100%; }
+       #printable-report {
+    zoom: 80%;
+  }
+.print-only {
+    display: block;
+  }
+}
+
+  
+  /* in your style.css */
+.print-only {
+  display: none;
+}
+
+
+/* make those dropdown-toggles look like selects */
+.card .dropdown-toggle.form-select {
+  text-align: left;
+  min-height: calc(1.5em + .75rem + 2px);
+}
+
+/* tighten up the card a bit */
+.card.mb-4 {
+  border-radius: .5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+}
+/* the little label “tab” */
+.filter-tab {
+  position: absolute;
+  top: -0.35rem;     /* lift it above the border */
+  left: 1rem;        /* align with form’s left padding */
+  background: #fff;  /* match container background */
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1;
+  pointer-events: none;
+}
+

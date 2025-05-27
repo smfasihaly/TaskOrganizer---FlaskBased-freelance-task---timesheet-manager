@@ -9,13 +9,18 @@
 ] %}
 
 {% block content %}
-
-  <div class="d-flex justify-content-between align-items-center mb-4">
-    <h1 class="h2">Your Tasks</h1>
-    <a href="{{ url_for('add_task') }}" class="btn btn-primary">
-      + New Task
-    </a>
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center">
+      <h1 class="h2 mb-0">Your Tasks</h1>
+      <a href="{{ url_for('add_task') }}" class="btn btn-primary">
+        + New Task
+      </a>
+    </div>
   </div>
+</div>
+
+
   <div class="kanban-board">
     {% for status, color in cols %}
       <div class="kanban-column" id="col-{{ status|replace(' ', '-') }}">
@@ -33,20 +38,19 @@
               --status-color-hover: var(--bs-{{ color }});
             "
           >
-           <!-- EDIT ICON top-right -->
-          <button type="button" class="btn btn-sm btn-light edit-icon" title="Edit Task">
-            ✏️
-          </button>
-          <button type="button" class="btn btn-sm btn-light delete-icon" title="Delete Task">
-  🗑️
-</button>
+            <!-- EDIT & DELETE ICONS -->
+            <button type="button" class="btn btn-sm btn-light edit-icon" title="Edit Task">
+              ✏️
+            </button>
+            <button type="button" class="btn btn-sm btn-light delete-icon" title="Delete Task">
+              🗑️
+            </button>
 
             <h6 class="card-title">{{ t.Client }}</h6>
             <p class="card-text">{{ t.TaskDescription }}</p>
-            
             <p class="card-ShortName" style="display:none">{{ t.ShortName }}</p>
             <small class="text-muted">Created {{ t.CreatedDate }}</small>
-            
+
             <div class="card-footer d-flex gap-2 mt-3">
               <a
                 href="{{ url_for('log_hours', task_id=t.TaskID) }}"
@@ -54,7 +58,6 @@
               >
                 Log Hours
               </a>
-             
             </div>
           </div>
         {% else %}
@@ -66,6 +69,7 @@
     {% endfor %}
   </div>
 
+  {# --- Edit Task Modal --- #}
   <div class="modal fade" id="editTaskModal" tabindex="-1">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -76,28 +80,39 @@
           </div>
           <div class="modal-body">
             <input type="hidden" name="task_id" id="modalTaskId">
+
             <div class="mb-3">
               <label class="form-label">Client</label>
               <input type="text" class="form-control" id="modalClient" readonly>
             </div>
+
             <div class="mb-3">
               <label class="form-label">Task Description</label>
               <textarea class="form-control" name="description" id="modalDescription" rows="3"></textarea>
             </div>
+
             <div class="mb-3">
-        <label class="form-label">Short Name (for timesheet)</label>
-        <input type="text" name="short_name" class="form-control" id="modalShortName" placeholder="e.g. API Work"     required
-        >
-      </div>
+              <label class="form-label">Short Name (for timesheet)</label>
+              <input
+                type="text"
+                name="short_name"
+                class="form-control"
+                id="modalShortName"
+                placeholder="e.g. API Work"
+                required
+              >
+            </div>
+
             <div class="mb-3">
               <label class="form-label">Status</label>
               <select class="form-select" name="status" id="modalStatus">
                 {% for st in ['Pending','In Progress','Completed'] %}
-                <option>{{st}}</option>
+                  <option>{{ st }}</option>
                 {% endfor %}
               </select>
             </div>
           </div>
+
           <div class="modal-footer">
             <button class="btn btn-primary">Save</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -109,101 +124,74 @@
 {% endblock %}
 
 
-
 {% block scripts %}
   {{ super() }}
   <script>
-    // Helper to show/hide the “No tasks here” message
+    // show/hide “No tasks here”
     function syncPlaceholder(columnEl) {
-      const hasCards = columnEl.querySelectorAll('.kanban-card').length > 0;
-      const msg      = columnEl.querySelector('.no-tasks-msg');
-      if (hasCards) {
-        if (msg) msg.remove();
-      } else {
-        if (!msg) {
-          const p = document.createElement('p');
-          p.className = 'text-center text-muted small mt-4 mb-0 no-tasks-msg';
-          p.textContent = 'No tasks here';
-          columnEl.appendChild(p);
-        }
+      const has = columnEl.querySelectorAll('.kanban-card').length > 0;
+      const msg = columnEl.querySelector('.no-tasks-msg');
+      if (has) return msg && msg.remove();
+      if (!msg) {
+        const p = document.createElement('p');
+        p.className = 'text-center text-muted small mt-4 mb-0 no-tasks-msg';
+        p.textContent = 'No tasks here';
+        columnEl.appendChild(p);
       }
     }
-     function clearAllHighlights() {
+    // clear any column highlight
+    function clearHighlights() {
       document.querySelectorAll('.kanban-column.dragging-over')
-        .forEach(col => col.classList.remove('dragging-over'));
+              .forEach(c=>c.classList.remove('dragging-over'));
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-
+      // Modal setup
       const modalEl = document.getElementById('editTaskModal');
       const modal   = new bootstrap.Modal(modalEl);
 
+      // open edit modal
       document.querySelectorAll('.kanban-card .edit-icon').forEach(btn => {
         btn.addEventListener('click', e => {
           e.stopPropagation();
           const card = btn.closest('.kanban-card');
           const id   = card.dataset.id;
-          const client = card.querySelector('.card-title').innerText.trim();
-          const desc   = card.querySelector('.card-text').innerText.trim();
-          const short_name   = card.querySelector('.card-ShortName').innerText.trim();
-          const status = card.closest('.kanban-column')
-                             .querySelector('.kanban-column-header')
-                             .innerText.trim();
-
-          document.getElementById('modalTaskId').value = id;
-          document.getElementById('modalClient').value = client;
-          document.getElementById('modalDescription').value = desc;
-          document.getElementById('modalShortName').value = short_name;
-          document.getElementById('modalStatus').value = status;
-          document.getElementById('editTaskForm').action =
-            `/tasks/${id}/edit`;
-
+          document.getElementById('modalTaskId').value      = id;
+          document.getElementById('modalClient').value      = card.querySelector('.card-title').innerText;
+          document.getElementById('modalDescription').value = card.querySelector('.card-text').innerText;
+          document.getElementById('modalShortName').value   = card.querySelector('.card-ShortName').innerText;
+          document.getElementById('modalStatus').value      =
+            card.closest('.kanban-column').querySelector('.kanban-column-header').innerText;
+          document.getElementById('editTaskForm').action = `/tasks/${id}/edit`;
           modal.show();
         });
       });
 
-        document.querySelectorAll('.kanban-card .delete-icon').forEach(btn => {
-    btn.addEventListener('click', async e => {
-      e.stopPropagation();
-      const card     = btn.closest('.kanban-card');
-      const taskId   = card.dataset.id;
-      const ok       = confirm('Are you sure you want to delete this task?');
-      if (!ok) return;
-
-      try {
-        const resp = await fetch(`/tasks/${taskId}/delete`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' }
+      // delete via AJAX
+      document.querySelectorAll('.kanban-card .delete-icon').forEach(btn => {
+        btn.addEventListener('click', async e => {
+          e.stopPropagation();
+          if (!confirm('Delete this task?')) return;
+          const card = btn.closest('.kanban-card');
+          const taskId   = card.dataset.id;
+          try {
+            const r = await fetch(`/tasks/${taskId}/delete`, { method:'POST' });
+            if (!r.ok) {
+              const err = await r.json().catch(()=>({}));
+              throw new Error(err.error||'Cannot delete');
+            }
+            card.remove();
+          } catch (e) {
+            alert(e.message);
+          }
         });
-         if (!resp.ok) {
-      // parse JSON error if any
-      let msg = 'Failed to delete task';
-      try {
-        const data = await resp.json();
-        if (data.error) msg = data.error;
-      } catch (_) {}
-      alert(msg);
-      return;
-    }
-
-    // success
-    card.remove();
-  } catch (err) {
-    console.error(err);
-    alert('Network error – could not delete task.');
-  }
-    });
-  });
-
+      });
 
       const statuses = {{ cols|map(attribute=0)|list|tojson }};
-
       statuses.forEach(status => {
-        const columnId = 'col-' + status.replace(' ', '-');
-        const column   = document.getElementById(columnId);
+        const colId = 'col-' + status.replace(' ', '-');
+        const column = document.getElementById(colId);
         if (!column) return;
-
-        // Initial sync in case some columns start empty
         syncPlaceholder(column);
 
         Sortable.create(column, {
@@ -213,57 +201,43 @@
           ghostClass: 'ghost',
           chosenClass: 'chosen',
 
+          // <— prevent drags when clicking buttons!
+          filter: '.btn, .edit-icon, .delete-icon',
+          preventOnFilter: true,
+
           onMove(evt) {
-           clearAllHighlights();
+            clearHighlights();
             evt.to.classList.add('dragging-over');
             return true;
           },
-
           onAdd(evt) {
-            const taskId    = evt.item.dataset.id;
-            const newStatus = status;
-            const colorMap  = {
+            const id = evt.item.dataset.id;
+            const colorMap = {
               'Pending':     '--bs-secondary',
               'In Progress': '--bs-warning',
               'Completed':   '--bs-success'
             };
-
-            fetch(`/tasks/${taskId}/update`, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ status: newStatus })
+            fetch(`/tasks/${id}/update`, {
+              method:'POST',
+              headers:{'Content-Type':'application/json'},
+              body:JSON.stringify({status})
             })
-            .then(response => {
-              if (!response.ok) throw new Error();
-              // Animate the border‐color
-              const cssVar = colorMap[newStatus];
-              evt.item.style.setProperty('--status-color', `var(${cssVar})`);
-              evt.item.style.setProperty('--status-color-hover', `var(${cssVar})`);
-
-              // Clean up classes
-              evt.item.classList.remove('ghost', 'chosen');
-              evt.to.classList.remove('dragging-over');
-
-              // Sync placeholders in both columns
+            .then(r=>{
+              if(!r.ok) throw 0;
+              const v = colorMap[status];
+              evt.item.style.setProperty('--status-color', `var(${v})`);
+              evt.item.style.setProperty('--status-color-hover', `var(${v})`);
+              evt.item.classList.remove('ghost','chosen');
               syncPlaceholder(evt.to);
               syncPlaceholder(evt.from);
             })
-            .catch(err => {
-              console.error(err);
+            .catch(_=>{
               evt.from.classList.remove('dragging-over');
-              alert('Could not update status');
-              // Put card back visually
               syncPlaceholder(evt.from);
+              alert('Could not update status');
             });
           },
-
-          onRemove(evt) {
-            
-              evt.to.classList.remove('dragging-over');
-            // Re-show placeholder if that column is now empty
-            syncPlaceholder(evt.from);
-          },
-
+          onRemove(evt) { syncPlaceholder(evt.from); },
           onEnd(evt) {
             evt.to.classList.remove('dragging-over');
             syncPlaceholder(evt.to);
@@ -271,6 +245,7 @@
           }
         });
       });
+
     });
   </script>
 {% endblock %}

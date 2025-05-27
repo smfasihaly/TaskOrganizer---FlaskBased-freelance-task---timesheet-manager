@@ -1,0 +1,89 @@
+{% extends 'base.html' %} {% block title %}Login or Register{% endblock %} {%
+block content %}
+<div class="card mx-auto" style="max-width: 500px">
+  <div class="card-body">
+    <h3 class="card-title mb-4 text-center">Welcome to Task Organizer</h3>
+
+    <div class="d-flex justify-content-around mb-4">
+      <button class="btn btn-outline-primary" onclick="showForm('login')">
+        Login
+      </button>
+      <button class="btn btn-outline-secondary" onclick="showForm('register')">
+        Register
+      </button>
+    </div>
+
+    <!-- LOGIN -->
+    <form method="post" id="loginForm" style="display: block">
+      <input type="hidden" name="action" value="login" />
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" name="name" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" required />
+      </div>
+      <button class="btn btn-primary w-100">Login</button>
+    </form>
+
+    <!-- REGISTER -->
+    <form method="post" id="registerForm" style="display: none">
+      <input type="hidden" name="action" value="register" />
+
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" name="name" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Payout Currency</label>
+        <input
+          list="currency_list"
+          name="pay_currency"
+          class="form-control"
+          required
+        />
+        <datalist id="currency_list">
+          {% for code, name in currencies %}
+          <option value="{{ code }}">
+            {{ code }} — {{ name }} ({{ get_currency_symbol(code) }})
+          </option>
+          {% endfor %}
+        </datalist>
+      </div>
+
+
+      <!-- optional language preference 
+      <div class="mb-3">
+        <label class="form-label">Language</label>
+        <select name="lang_pref" class="form-select">
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+        </select>
+      </div>
+    -->
+      <button class="btn btn-success w-100">Register</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  function showForm(type) {
+    document.getElementById("loginForm").style.display =
+      type === "login" ? "block" : "none";
+    document.getElementById("registerForm").style.display =
+      type === "register" ? "block" : "none";
+  }
+</script>
+{% endblock %}

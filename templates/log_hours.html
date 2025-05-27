@@ -17,7 +17,7 @@
         >
         <datalist id="task_list">
           {% for t in tasks %}
-            <option value="{{ t.Client }} – {{ t.ShortName }}"></option>
+            <option value="{{ t.display }}"></option>
           {% endfor %}
         </datalist>
       </div>
