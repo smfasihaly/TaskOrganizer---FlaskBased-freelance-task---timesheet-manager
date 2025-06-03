@@ -583,7 +583,7 @@ def view_timesheet():
             'Children':   children
         })
 
-    return render_template('view_timesheet.html', groups=grouped)
+    return render_template('view_timesheet.html', clients_list=clients.to_dict('records') , groups=grouped)
 
 
 @app.route('/timesheet/mark_paid/<entry_id>', methods=['POST'])
@@ -645,7 +645,6 @@ def edit_entry(entry_id):
 
 @app.route('/timesheet/export')
 @login_required
-
 def export_timesheet():
     clients, tasks, ts, users = load_user_data()
     me = session['user_id']
@@ -654,34 +653,36 @@ def export_timesheet():
     df = (ts
           .merge(tasks[['TaskID','ClientID','ShortName','TaskDescription']],
                  on='TaskID', how='left')
-          .merge(clients[['ClientID','ClientName']], on='ClientID', how='left'))
+          .merge(clients[['ClientID','ClientName','ParentID']], on='ClientID', how='left'))
     df['Date']  = pd.to_datetime(df['Date'])
     df['Month'] = df['Date'].dt.to_period('M').astype(str)
 
     # Filters
-    parent_id = request.args.get('parent_id')
-    if parent_id:
-        child_ids = clients.loc[clients.ParentID==parent_id, 'ClientID'].tolist()
-        df = df[df.ClientID.isin([parent_id] + child_ids)]
-
-    client_id   = request.args.get('client_id')
+    client_id   = request.args.get('client_id')  # this can be either a parent or a leaf
     client_name = "all-clients"
     if client_id:
-        df = df[df.ClientID == client_id]
-        client_name = clients.loc[clients.ClientID==client_id, 'ClientName'].iloc[0].replace(" ", "_")
+        # if the chosen client_id is actually a parent, include all its children
+        is_parent   = client_id in clients.ParentID.values
+        if is_parent:
+            child_ids = clients.loc[clients.ParentID == client_id, 'ClientID'].tolist()
+            df = df[df.ClientID.isin([client_id] + child_ids)]
+        else:
+            df = df[df.ClientID == client_id]
+        client_name = clients.loc[clients.ClientID == client_id, 'ClientName'].iloc[0].replace(" ", "_")
 
+
+    # Filter by month if provided
     month = request.args.get('month')
     month_label = month or "all-months"
     if month:
         df = df[df.Month == month]
 
-    # Group into sheets by month
+    # Group into sheets by month (flat month string)
     if month:
-        sheets = {month: df}
+        sheets = { month: df }
     else:
         sheets = dict(tuple(df.groupby('Month')))
 
-    # Build in-memory Excel file, using date_format and datetime_format
     output = BytesIO()
     with pd.ExcelWriter(
         output,
@@ -691,11 +692,61 @@ def export_timesheet():
     ) as writer:
 
         for sheet_name, sheet_df in sheets.items():
-            out = sheet_df[['Date','ShortName','TaskDescription','Hours']].copy()
+            # Build a list of rows grouped by parent:
+            # For each unique parent_id in this sheet, insert a "header" row
+            # with ParentName, then all child rows under it.
+            rows = []
+            # Determine each row's true parent_id
+            sheet_df = sheet_df.copy()
+            sheet_df['EffectiveParent'] = sheet_df.apply(
+                lambda r: r.ClientID if r.ParentID == '' else r.ParentID,
+                axis=1
+            )
+            # Group all entries by that EffectiveParent
+            grouped_by_parent = {
+                pid: group
+                for pid, group in sheet_df.groupby('EffectiveParent')
+            }
 
-            # Append total row
-            total_hours = out['Hours'].sum()
+            # Sort parents by name
+            parent_order = sorted(
+                grouped_by_parent.keys(),
+                key=lambda pid: clients.set_index('ClientID').loc[pid, 'ClientName']
+            )
+
+            for pid in parent_order:
+                parent_name = clients.loc[clients.ClientID == pid, 'ClientName'].iloc[0]
+                # Insert a header row for this parent
+                rows.append({
+                    'ParentName': parent_name,
+                    'ClientName': '',
+                    'Date': pd.NaT,
+                    'ShortName': '',
+                    'TaskDescription': '',
+                    'Hours': ''
+                })
+                # Now append each child entry under this parent
+                for _, entry in grouped_by_parent[pid].iterrows():
+                    child_name = entry.ClientName
+                    rows.append({
+                        'ParentName': '',
+                        'ClientName': child_name,
+                        'Date': entry.Date,
+                        'ShortName': entry.ShortName,
+                        'TaskDescription': entry.TaskDescription,
+                        'Hours': entry.Hours
+                    })
+
+            # Convert to DataFrame
+            out = pd.DataFrame(rows, columns=[
+                'ParentName', 'ClientName', 'Date', 'ShortName', 'TaskDescription', 'Hours'
+            ])
+
+            # Append a bottom total row (summing only the numeric Hours)
+            total_hours = sheet_df['Hours'].sum()
             total_row = pd.DataFrame([{
+                'ParentName': '',
+                'ClientName': '',
                 'Date': pd.NaT,
                 'ShortName': '',
                 'TaskDescription': 'Total',
@@ -703,15 +754,14 @@ def export_timesheet():
             }])
             out = pd.concat([out, total_row], ignore_index=True)
 
-            # convert “YYYY-MM” into “may-2025”
-            dt = pd.to_datetime(sheet_name + "-01")        # parse first of month
-            sheet_label = dt.strftime('%B-%Y').lower()     # “May-2025” → “may-2025”
-            # ensure it still fits Excel’s 31-char limit
-            safe_sheet = sheet_label[:31]
+            # Convert “YYYY-MM” into “may-2025”
+            dt = pd.to_datetime(sheet_name + "-01")
+            sheet_label = dt.strftime('%B-%Y').lower()  # e.g. "May-2025" → "may-2025"
+            safe_sheet = sheet_label[:31]  # Excel limit
+
             out.to_excel(writer, sheet_name=safe_sheet, index=False)
 
     output.seek(0)
-
     filename = f"timesheet-{client_name}-{month_label}.xlsx"
     return send_file(
         output,
@@ -719,7 +769,6 @@ def export_timesheet():
         as_attachment=True,
         download_name=filename
     )
-
 # ── Reports ──────────────────────────────────────────────────────────────────
 @app.route('/reports/monthly')
 @login_required
